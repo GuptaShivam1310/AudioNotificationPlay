@@ -66,7 +66,7 @@ function AppContent({ fcmToken }: { fcmToken: string | null }) {
         {fcmToken ?? 'Fetching token...'}
       </Text>
       <View style={{ flexDirection: 'row', justifyContent: "space-between" }}>
-        <TouchableOpacity onPress={() => addTrack('https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8')} style={styles.stopStartBtn}>
+        <TouchableOpacity onPress={() => addTrack('https://media-ice.musicradio.com/ClassicFM')} style={styles.stopStartBtn}>
           <Text style={styles.btnText}>Play</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => stopTrack()} style={styles.stopStartBtn}>
