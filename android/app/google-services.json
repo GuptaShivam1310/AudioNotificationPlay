@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163717032986",
+    "project_id": "audionotification-6689a",
+    "storage_bucket": "audionotification-6689a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163717032986:android:909616bac6373fb93b75a3",
+        "android_client_info": {
+          "package_name": "com.ridermobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2BM6Szntup-nOcLj8kKXM-jUL8_NFhSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
