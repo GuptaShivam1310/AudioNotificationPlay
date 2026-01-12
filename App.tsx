@@ -67,10 +67,10 @@ function AppContent({ fcmToken }: { fcmToken: string | null }) {
       </Text>
       <View style={{ flexDirection: 'row', justifyContent: "space-between" }}>
         <TouchableOpacity onPress={() => addTrack('https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8')} style={styles.stopStartBtn}>
-          <Text style={styles.token}>Play</Text>
+          <Text style={styles.btnText}>Play</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => stopTrack()} style={styles.stopStartBtn}>
-          <Text style={styles.token}>Stop</Text>
+          <Text style={styles.btnText}>Stop</Text>
         </TouchableOpacity>
       </View>
 
@@ -90,10 +90,13 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   token: {
-    color: '#fff'
+    color: '#000'
   },
   stopStartBtn:{
     padding: 10, backgroundColor: '#333', borderRadius: 5 
+  },
+  btnText:{
+    color: '#fff'
   }
 });
 
